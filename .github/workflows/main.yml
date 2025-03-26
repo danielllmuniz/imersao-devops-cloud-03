@@ -44,8 +44,8 @@ jobs:
             danielllmuniz/trader-web:${{github.run_number}}
             danielllmuniz/trader-web:latest
           build-args: |
-            NEXT_PUBLI_NEST_URL: http://test.com
-            NEXT_PUBLI_NEST_URL_API: http://api.test.com
+            next_url: http://test.com
+            next_url_api: http://api.test.com
           
           
   CD:
